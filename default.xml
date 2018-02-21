@@ -17,9 +17,11 @@
            remote="github"
            sync-c="true"
            sync-j="4" />
-
-  <!-- AOSP Projects -->
-
+   
+  
+ <!-- AOSP Projects -->
+ 
+  <project path=”android” name="eddi1971/android" />
   <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
